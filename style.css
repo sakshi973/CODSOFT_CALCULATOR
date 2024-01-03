@@ -1,0 +1,93 @@
+body{
+    width: 120%;
+    height: 120vh;
+    background: #c7f1ff;
+    font-family: sans-serif;
+    margin: 0;
+}
+h3 {
+    width: 50%;
+    background: #454545;
+    font-size: 35px;
+    color: #0062ff;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto 100px;
+    text-shadow: 0px 1px 20px #0048ff;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px 0px #0048ff;
+}
+table.calculator {
+    border-radius: 10px;
+    width: 35%;
+    margin: 20px auto;
+    background: #f3f1ef;
+    padding: 20px;
+    border: 3px solid #454545;
+    box-shadow: 4px 4px 8px 5px #454545;
+}
+tr.tbr.tbr1 {
+    width: 100%;
+}
+td.inp {
+    width: 100%;
+}
+input#result {
+    width: 98%;
+}
+input#result {
+    padding: 2px 30px;
+    width: 83%;
+    height: 50px;
+    border: 1px solid #454545;
+    margin: 10px 5px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type="button"] {
+    background: #454545;
+    border: 2px solid #f3edea;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    display: inline-grid;
+    align-items: center;
+    margin: 5px 28px;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 15px;
+}
+@media only screen and (max-width: 600px){
+    input[type="button"] {
+        background: #454545;
+        border: 2px solid #d0cac7;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        display: inline-grid;
+        align-items: center;
+        margin: 5px 15px;
+        border-radius: 5px;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    input#result {
+        padding: 2px 30px;
+        width: 65%;
+        height: 50px;
+        border: 1px solid #454545;
+        margin: 10px 17px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
